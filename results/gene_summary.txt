@@ -1,0 +1,4 @@
+Gene symbol: MYBPC3
+NCBI Gene ID: 4607
+Official name: myosin binding protein C3
+Chromosome: 11
