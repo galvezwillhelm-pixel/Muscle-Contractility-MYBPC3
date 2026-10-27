@@ -190,15 +190,18 @@ The p.Arg502Trp variant changes a conserved arginine residue to the larger amino
 
 ClinVar currently reports an aggregate classification of **Pathogenic/Likely pathogenic**, with multiple submitters contributing evidence and no conflicts in the aggregate classification.
 
+
 ## Interpretation and Discussion
 
-MYBPC3 is important for normal cardiac sarcomere function and regulation of muscle contraction. The p.Arg502Trp variant changes arginine at position 502 to tryptophan. This amino-acid substitution occurs within the Ig-like C2-type 3 domain and affects a conserved region of the protein.
+MYBPC3 encodes cardiac myosin-binding protein C (cMyBP-C), a protein associated with the thick filament of striated muscle. It interacts with components of the contractile machinery and contributes to the regulation of cardiac muscle contraction. The reference MYBPC3 protein analyzed in this project is 1,274 amino acids long, and the assigned variant occurs at amino-acid position 502.
 
-Clinical evidence supports an association between this variant and hypertrophic cardiomyopathy, including reports in affected individuals and families. Functional evidence also supports altered MYBPC3 protein function and effects relevant to cardiac contraction and relaxation. These findings provide stronger evidence than computational prediction alone.
+The assigned variant, NM_000256.3:c.1504C>T (p.Arg502Trp), is a missense variant in which arginine (R) is replaced by tryptophan (W) at position 502. Position 502 is located within the Ig-like C2-type 3 domain of MYBPC3. The change therefore affects the amino-acid sequence of an existing protein rather than producing a premature stop codon. The amino-acid composition analysis describes the overall composition of the reference protein, but it cannot by itself determine whether Arg502 is functionally important or whether the R502W variant is pathogenic.
 
-The amino-acid composition analysis describes the overall composition of the 1,274-amino-acid reference protein. However, the frequency of amino acids cannot by itself determine whether a particular residue is functionally important or whether a variant is pathogenic.
+Clinical evidence supports an association between R502W and hypertrophic cardiomyopathy. ClinVar reports an aggregate classification of Pathogenic/Likely pathogenic, with multiple submissions contributing evidence and no conflicts in the aggregate classification. The variant has been reported in affected individuals and families, including evidence of disease segregation. This clinical evidence supports an association between the variant and cardiomyopathy, although clinical association alone does not describe the exact molecular mechanism.
 
-The available evidence supports a relationship between the R502W variant, altered MYBPC3 function, abnormal regulation of cardiac muscle contraction, and hypertrophic cardiomyopathy. However, computational predictions should not be treated as experimental proof, and the exact molecular mechanism should be interpreted using the available clinical and functional evidence.
+Functional evidence provides additional support. ClinVar submissions report studies indicating that the variant alters MYBPC3 protein function and may affect processes relevant to cardiac muscle contraction and relaxation. These findings provide experimental support for a functional effect of the variant. However, computational predictions should be considered separately from experimental observations. Computational tools can support a hypothesis about the effect of an amino-acid substitution, but they cannot independently prove that a variant causes disease.
+
+Overall, the evidence supports a pathway in which the MYBPC3 R502W substitution alters cMyBP-C function, which may affect regulation of cardiac sarcomere contraction and contribute to hypertrophic cardiomyopathy. However, the exact molecular mechanism should be interpreted cautiously because different types of evidence address different biological questions. A useful validation experiment would be to compare engineered cardiac muscle cells carrying R502W with normal control cells and measure contractile force and calcium sensitivity. This would directly test whether the variant produces measurable changes in cardiac muscle contractility.
 
 ## Proposed Validation Experiment
 
@@ -237,7 +240,7 @@ This analysis is based on reference sequence information, database records, clin
 
 3. Zhang, X. et al. (2014). **NMR structure of the C3 domain of human cardiac myosin binding protein-C with the hypertrophic cardiomyopathy-related mutation R502W.** Biochemistry.
 
-4. Cohn, A. et al. (2019). Functional studies of MYBPC3 R502W and its effects on protein function and cardiac muscle contraction.
+4. Mavacamten shows broad benefit in human and mouse models of MYBPC3-related hypertrophic cardiomyopathy.
 
 ## Database Links
 
